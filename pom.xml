@@ -149,6 +149,11 @@
       <artifactId>mkcsr</artifactId>
       <version>1.3.0</version>
     </dependency>
+    <dependency>
+      <groupId>com.io7m.sigiltron</groupId>
+      <artifactId>sigiltron</artifactId>
+      <version>1.1.0</version>
+    </dependency>
   </dependencies>
 
 </project>
