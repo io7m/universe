@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2017-02-23</version>
+  <version>2017-02-25</version>
 
   <build>
     <plugins>
@@ -24,6 +24,11 @@
   </build>
 
   <dependencies>
+    <dependency>
+      <groupId>com.io7m.zeptoblog</groupId>
+      <artifactId>com.io7m.zeptoblog</artifactId>
+      <version>0.1.0</version>
+    </dependency>
     <dependency>
       <groupId>com.io7m.changelog</groupId>
       <artifactId>io7m-changelog-plugin</artifactId>
