@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2017-02-25</version>
+  <version>2017-03-15</version>
 
   <build>
     <plugins>
@@ -26,8 +26,23 @@
   <dependencies>
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
-      <artifactId>com.io7m.zeptoblog</artifactId>
-      <version>0.1.0</version>
+      <artifactId>com.io7m.zeptoblog.core</artifactId>
+      <version>0.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.zeptoblog</groupId>
+      <artifactId>com.io7m.zeptoblog.cmdline</artifactId>
+      <version>0.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.zeptoblog</groupId>
+      <artifactId>com.io7m.zeptoblog.glossary</artifactId>
+      <version>0.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.zeptoblog</groupId>
+      <artifactId>com.io7m.zeptoblog.commonmark</artifactId>
+      <version>0.3.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.changelog</groupId>
@@ -158,6 +173,16 @@
       <groupId>com.io7m.sigiltron</groupId>
       <artifactId>sigiltron</artifactId>
       <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jregions</groupId>
+      <artifactId>com.io7m.jregions.core</artifactId>
+      <version>0.0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jregions</groupId>
+      <artifactId>com.io7m.jregions.generators</artifactId>
+      <version>0.0.4</version>
     </dependency>
   </dependencies>
 
