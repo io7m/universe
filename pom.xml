@@ -25,6 +25,37 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.io7m.jsx</groupId>
+      <artifactId>com.io7m.jsx.core</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsx</groupId>
+      <artifactId>com.io7m.jsx.cmdline</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsx</groupId>
+      <artifactId>com.io7m.jsx.combinators</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsx</groupId>
+      <artifactId>com.io7m.jsx.parser</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsx</groupId>
+      <artifactId>com.io7m.jsx.parser.api</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsx</groupId>
+      <artifactId>com.io7m.jsx.prettyprint</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+
+    <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
       <artifactId>com.io7m.zeptoblog.core</artifactId>
       <version>0.3.0</version>
