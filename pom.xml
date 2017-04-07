@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2017-04-06</version>
+  <version>2017-04-07</version>
 
   <build>
     <plugins>
@@ -53,6 +53,17 @@
       <groupId>com.io7m.jsx</groupId>
       <artifactId>com.io7m.jsx.prettyprint</artifactId>
       <version>0.8.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.io7m.junsigned</groupId>
+      <artifactId>com.io7m.junsigned.core</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.junsigned</groupId>
+      <artifactId>com.io7m.junsigned.ranges</artifactId>
+      <version>1.0.1</version>
     </dependency>
 
     <dependency>
