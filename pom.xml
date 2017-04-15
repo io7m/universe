@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2017-04-09</version>
+  <version>2017-04-15</version>
 
   <build>
     <plugins>
@@ -24,6 +24,12 @@
   </build>
 
   <dependencies>
+    <dependency>
+      <groupId>com.io7m.jorchard</groupId>
+      <artifactId>com.io7m.jorchard.core</artifactId>
+      <version>0.3.1</version>
+    </dependency>
+
     <dependency>
       <groupId>com.io7m.jsx</groupId>
       <artifactId>com.io7m.jsx.core</artifactId>
