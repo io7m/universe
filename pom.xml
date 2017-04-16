@@ -47,6 +47,12 @@
     </dependency>
 
     <dependency>
+      <groupId>com.io7m.jpita</groupId>
+      <artifactId>com.io7m.jpita.core</artifactId>
+      <version>0.3.0</version>
+    </dependency>
+
+    <dependency>
       <groupId>com.io7m.jsx</groupId>
       <artifactId>com.io7m.jsx.core</artifactId>
       <version>0.8.0</version>
