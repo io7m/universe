@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2017-04-15</version>
+  <version>2017-04-16</version>
 
   <build>
     <plugins>
@@ -24,6 +24,22 @@
   </build>
 
   <dependencies>
+    <dependency>
+      <groupId>com.io7m.jsycamore</groupId>
+      <artifactId>com.io7m.jsycamore.core</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsycamore</groupId>
+      <artifactId>com.io7m.jsycamore.awt</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsycamore</groupId>
+      <artifactId>com.io7m.jsycamore.caffeine</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+
     <dependency>
       <groupId>com.io7m.jorchard</groupId>
       <artifactId>com.io7m.jorchard.core</artifactId>
@@ -306,12 +322,12 @@
     <dependency>
       <groupId>com.io7m.jregions</groupId>
       <artifactId>com.io7m.jregions.core</artifactId>
-      <version>0.0.6</version>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jregions</groupId>
       <artifactId>com.io7m.jregions.generators</artifactId>
-      <version>0.0.6</version>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
 
