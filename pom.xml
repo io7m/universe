@@ -9,6 +9,9 @@
   <artifactId>universe</artifactId>
   <version>2017-04-24</version>
 
+  <properties>
+  </properties>
+
   <build>
     <plugins>
       <plugin>
@@ -127,22 +130,22 @@
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
       <artifactId>com.io7m.zeptoblog.core</artifactId>
-      <version>0.3.0</version>
+      <version>0.4.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
       <artifactId>com.io7m.zeptoblog.cmdline</artifactId>
-      <version>0.3.0</version>
+      <version>0.4.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
       <artifactId>com.io7m.zeptoblog.glossary</artifactId>
-      <version>0.3.0</version>
+      <version>0.4.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
       <artifactId>com.io7m.zeptoblog.commonmark</artifactId>
-      <version>0.3.0</version>
+      <version>0.4.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>
@@ -288,37 +291,37 @@
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.bytebuffer</artifactId>
-      <version>0.10.0-SNAPSHOT</version>
+      <version>0.10.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.core</artifactId>
-      <version>0.10.0-SNAPSHOT</version>
+      <version>0.10.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.format.binary</artifactId>
-      <version>0.10.0-SNAPSHOT</version>
+      <version>0.10.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.format.obj</artifactId>
-      <version>0.10.0-SNAPSHOT</version>
+      <version>0.10.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.format.text</artifactId>
-      <version>0.10.0-SNAPSHOT</version>
+      <version>0.10.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.processing.main</artifactId>
-      <version>0.10.0-SNAPSHOT</version>
+      <version>0.10.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.validation.main</artifactId>
-      <version>0.10.0-SNAPSHOT</version>
+      <version>0.10.0</version>
     </dependency>
 
     <dependency>
