@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2017-04-16</version>
+  <version>2017-04-24</version>
 
   <build>
     <plugins>
@@ -235,30 +235,90 @@
 
     <dependency>
       <groupId>com.io7m.r2</groupId>
-      <artifactId>io7m-r2-main</artifactId>
+      <artifactId>com.io7m.r2.facade</artifactId>
       <version>0.2.1</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
-      <artifactId>io7m-jcanephora-jogl</artifactId>
-      <version>0.60.0-SNAPSHOT</version>
+      <artifactId>com.io7m.jcanephora.jogl</artifactId>
+      <version>0.60.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jcanephora</groupId>
+      <artifactId>com.io7m.jcanephora.lwjgl</artifactId>
+      <version>0.60.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jcanephora</groupId>
+      <artifactId>com.io7m.jcanephora.fake</artifactId>
+      <version>0.60.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jcanephora</groupId>
+      <artifactId>com.io7m.jcanephora.renderstate</artifactId>
+      <version>0.60.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jcanephora</groupId>
+      <artifactId>com.io7m.jcanephora.profiler</artifactId>
+      <version>0.60.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jcanephora</groupId>
+      <artifactId>com.io7m.jcanephora.texture.loader.awt</artifactId>
+      <version>0.60.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jcanephora</groupId>
+      <artifactId>com.io7m.jcanephora.texture.unit_allocator</artifactId>
+      <version>0.60.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jcanephora</groupId>
+      <artifactId>com.io7m.jcanephora.async</artifactId>
+      <version>0.60.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jcanephora</groupId>
+      <artifactId>com.io7m.jcanephora.cursors</artifactId>
+      <version>0.60.0</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.smfj</groupId>
-      <artifactId>io7m-smfj-core</artifactId>
-      <version>0.9.0</version>
+      <artifactId>com.io7m.smfj.bytebuffer</artifactId>
+      <version>0.10.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
-      <artifactId>io7m-smfj-format-text</artifactId>
-      <version>0.9.0</version>
+      <artifactId>com.io7m.smfj.core</artifactId>
+      <version>0.10.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
-      <artifactId>io7m-smfj-format-binary</artifactId>
-      <version>0.9.0</version>
+      <artifactId>com.io7m.smfj.format.binary</artifactId>
+      <version>0.10.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.smfj</groupId>
+      <artifactId>com.io7m.smfj.format.obj</artifactId>
+      <version>0.10.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.smfj</groupId>
+      <artifactId>com.io7m.smfj.format.text</artifactId>
+      <version>0.10.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.smfj</groupId>
+      <artifactId>com.io7m.smfj.processing.main</artifactId>
+      <version>0.10.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.smfj</groupId>
+      <artifactId>com.io7m.smfj.validation.main</artifactId>
+      <version>0.10.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>
@@ -286,12 +346,6 @@
     </dependency>
 
     <dependency>
-      <groupId>com.io7m.jnull</groupId>
-      <artifactId>io7m-jnull-core</artifactId>
-      <version>1.0.2</version>
-    </dependency>
-
-    <dependency>
       <groupId>com.io7m.junreachable</groupId>
       <artifactId>com.io7m.junreachable.core</artifactId>
       <version>1.0.3</version>
@@ -306,17 +360,17 @@
     <dependency>
       <groupId>com.io7m.jtensors</groupId>
       <artifactId>io7m-jtensors-core</artifactId>
-      <version>8.0.0-beta0001</version>
+      <version>8.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jtensors</groupId>
       <artifactId>io7m-jtensors-bytebuffered</artifactId>
-      <version>8.0.0-beta0001</version>
+      <version>8.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jtensors</groupId>
       <artifactId>io7m-jtensors-ieee754b16</artifactId>
-      <version>8.0.0-beta0001</version>
+      <version>8.0.0</version>
     </dependency>
 
     <dependency>
