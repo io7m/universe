@@ -28,6 +28,12 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.io7m.jptbox</groupId>
+      <artifactId>com.io7m.jptbox.core</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+
+    <dependency>
       <groupId>com.io7m.jserial</groupId>
       <artifactId>com.io7m.jserial.core</artifactId>
       <version>0.2.0-SNAPSHOT</version>
