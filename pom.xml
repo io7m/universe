@@ -208,7 +208,7 @@
 
     <dependency>
       <groupId>com.io7m.jpra</groupId>
-      <artifactId>io7m-jpra-maven-plugin</artifactId>
+      <artifactId>com.io7m.jpra.maven.plugin</artifactId>
       <version>0.6.0</version>
     </dependency>
 
