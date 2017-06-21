@@ -7,9 +7,25 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2017-04-25</version>
+  <version>2017-06-21</version>
 
   <properties>
+    <ieee754b16.version>1.0.4</ieee754b16.version>
+    <jaffirm.version>1.1.0</jaffirm.version>
+    <jcanephora.version>0.61.0-SNAPSHOT</jcanephora.version>
+    <jeucreader.version>1.1.2</jeucreader.version>
+    <jnull.version>1.1.0</jnull.version>
+    <jproperties.version>1.0.3</jproperties.version>
+    <jptbox.version>1.0.0</jptbox.version>
+    <jregions.version>1.1.0</jregions.version>
+    <jsx.version>0.8.0</jsx.version>
+    <jsycamore.version>0.1.0</jsycamore.version>
+    <jtensors.version>8.0.0</jtensors.version>
+    <junreachable.version>1.0.3</junreachable.version>
+    <junsigned.version>1.0.1</junsigned.version>
+    <mutable.numbers.version>[1.0.0, 2.0.0)</mutable.numbers.version>
+    <smfj.version>0.14.0</smfj.version>
+    <zeptoblog.version>0.4.0-SNAPSHOT</zeptoblog.version>
   </properties>
 
   <build>
@@ -30,7 +46,7 @@
     <dependency>
       <groupId>com.io7m.jptbox</groupId>
       <artifactId>com.io7m.jptbox.core</artifactId>
-      <version>1.0.0</version>
+      <version>${jptbox.version}</version>
     </dependency>
 
     <dependency>
@@ -42,17 +58,17 @@
     <dependency>
       <groupId>com.io7m.jsycamore</groupId>
       <artifactId>com.io7m.jsycamore.core</artifactId>
-      <version>0.1.0</version>
+      <version>${jsycamore.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsycamore</groupId>
       <artifactId>com.io7m.jsycamore.awt</artifactId>
-      <version>0.1.0</version>
+      <version>${jsycamore.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsycamore</groupId>
       <artifactId>com.io7m.jsycamore.caffeine</artifactId>
-      <version>0.1.0</version>
+      <version>${jsycamore.version}</version>
     </dependency>
 
     <dependency>
@@ -70,32 +86,32 @@
     <dependency>
       <groupId>com.io7m.jsx</groupId>
       <artifactId>com.io7m.jsx.core</artifactId>
-      <version>0.8.0</version>
+      <version>${jsx.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsx</groupId>
       <artifactId>com.io7m.jsx.cmdline</artifactId>
-      <version>0.8.0</version>
+      <version>${jsx.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsx</groupId>
       <artifactId>com.io7m.jsx.combinators</artifactId>
-      <version>0.8.0</version>
+      <version>${jsx.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsx</groupId>
       <artifactId>com.io7m.jsx.parser</artifactId>
-      <version>0.8.0</version>
+      <version>${jsx.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsx</groupId>
       <artifactId>com.io7m.jsx.parser.api</artifactId>
-      <version>0.8.0</version>
+      <version>${jsx.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsx</groupId>
       <artifactId>com.io7m.jsx.prettyprint</artifactId>
-      <version>0.8.0</version>
+      <version>${jsx.version}</version>
     </dependency>
 
     <dependency>
@@ -107,24 +123,24 @@
     <dependency>
       <groupId>com.io7m.jproperties</groupId>
       <artifactId>com.io7m.jproperties.core</artifactId>
-      <version>1.0.3</version>
+      <version>${jproperties.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.junsigned</groupId>
       <artifactId>com.io7m.junsigned.core</artifactId>
-      <version>1.0.1</version>
+      <version>${junsigned.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.junsigned</groupId>
       <artifactId>com.io7m.junsigned.ranges</artifactId>
-      <version>1.0.1</version>
+      <version>${junsigned.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.mutable.numbers</groupId>
       <artifactId>com.io7m.mutable.numbers.core</artifactId>
-      <version>[1.0.0, 2.0.0)</version>
+      <version>${mutable.numbers.version}</version>
     </dependency>
 
     <dependency>
@@ -136,22 +152,22 @@
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
       <artifactId>com.io7m.zeptoblog.core</artifactId>
-      <version>0.4.0-SNAPSHOT</version>
+      <version>${zeptoblog.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
       <artifactId>com.io7m.zeptoblog.cmdline</artifactId>
-      <version>0.4.0-SNAPSHOT</version>
+      <version>${zeptoblog.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
       <artifactId>com.io7m.zeptoblog.glossary</artifactId>
-      <version>0.4.0-SNAPSHOT</version>
+      <version>${zeptoblog.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
       <artifactId>com.io7m.zeptoblog.commonmark</artifactId>
-      <version>0.4.0-SNAPSHOT</version>
+      <version>${zeptoblog.version}</version>
     </dependency>
 
     <dependency>
@@ -193,17 +209,17 @@
     <dependency>
       <groupId>com.io7m.jsycamore</groupId>
       <artifactId>io7m-jsycamore-core</artifactId>
-      <version>0.1.0</version>
+      <version>${jsycamore.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsycamore</groupId>
       <artifactId>io7m-jsycamore-awt</artifactId>
-      <version>0.1.0</version>
+      <version>${jsycamore.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsycamore</groupId>
       <artifactId>io7m-jsycamore-caffeine</artifactId>
-      <version>0.1.0</version>
+      <version>${jsycamore.version}</version>
     </dependency>
 
     <dependency>
@@ -251,89 +267,89 @@
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
       <artifactId>com.io7m.jcanephora.jogl</artifactId>
-      <version>0.60.0</version>
+      <version>${jcanephora.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
       <artifactId>com.io7m.jcanephora.lwjgl</artifactId>
-      <version>0.60.0</version>
+      <version>${jcanephora.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
       <artifactId>com.io7m.jcanephora.fake</artifactId>
-      <version>0.60.0</version>
+      <version>${jcanephora.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
       <artifactId>com.io7m.jcanephora.renderstate</artifactId>
-      <version>0.60.0</version>
+      <version>${jcanephora.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
       <artifactId>com.io7m.jcanephora.profiler</artifactId>
-      <version>0.60.0</version>
+      <version>${jcanephora.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
       <artifactId>com.io7m.jcanephora.texture.loader.awt</artifactId>
-      <version>0.60.0</version>
+      <version>${jcanephora.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
       <artifactId>com.io7m.jcanephora.texture.unit_allocator</artifactId>
-      <version>0.60.0</version>
+      <version>${jcanephora.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
       <artifactId>com.io7m.jcanephora.async</artifactId>
-      <version>0.60.0</version>
+      <version>${jcanephora.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jcanephora</groupId>
       <artifactId>com.io7m.jcanephora.cursors</artifactId>
-      <version>0.60.0</version>
+      <version>${jcanephora.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.bytebuffer</artifactId>
-      <version>0.10.0</version>
+      <version>${smfj.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.core</artifactId>
-      <version>0.10.0</version>
+      <version>${smfj.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.format.binary</artifactId>
-      <version>0.10.0</version>
+      <version>${smfj.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.format.obj</artifactId>
-      <version>0.10.0</version>
+      <version>${smfj.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.format.text</artifactId>
-      <version>0.10.0</version>
+      <version>${smfj.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.processing.main</artifactId>
-      <version>0.10.0</version>
+      <version>${smfj.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.validation.main</artifactId>
-      <version>0.10.0</version>
+      <version>${smfj.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.jaffirm</groupId>
       <artifactId>com.io7m.jaffirm.core</artifactId>
-      <version>1.1.0</version>
+      <version>${jaffirm.version}</version>
     </dependency>
 
     <dependency>
@@ -345,41 +361,41 @@
     <dependency>
       <groupId>com.io7m.ieee754b16</groupId>
       <artifactId>com.io7m.ieee754b16.core</artifactId>
-      <version>1.0.3</version>
+      <version>${ieee754b16.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.jnull</groupId>
       <artifactId>com.io7m.jnull.core</artifactId>
-      <version>1.1.0</version>
+      <version>${jnull.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.junreachable</groupId>
       <artifactId>com.io7m.junreachable.core</artifactId>
-      <version>1.0.3</version>
+      <version>${junreachable.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.jeucreader</groupId>
       <artifactId>com.io7m.jeucreader.core</artifactId>
-      <version>1.1.2</version>
+      <version>${jeucreader.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.io7m.jtensors</groupId>
       <artifactId>io7m-jtensors-core</artifactId>
-      <version>8.0.0</version>
+      <version>${jtensors.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jtensors</groupId>
       <artifactId>io7m-jtensors-bytebuffered</artifactId>
-      <version>8.0.0</version>
+      <version>${jtensors.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jtensors</groupId>
       <artifactId>io7m-jtensors-ieee754b16</artifactId>
-      <version>8.0.0</version>
+      <version>${jtensors.version}</version>
     </dependency>
 
     <dependency>
@@ -397,12 +413,12 @@
     <dependency>
       <groupId>com.io7m.jregions</groupId>
       <artifactId>com.io7m.jregions.core</artifactId>
-      <version>1.0.0</version>
+      <version>${jregions.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jregions</groupId>
       <artifactId>com.io7m.jregions.generators</artifactId>
-      <version>1.0.0</version>
+      <version>${jregions.version}</version>
     </dependency>
   </dependencies>
 
