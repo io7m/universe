@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2017-06-21</version>
+  <version>2017-06-29</version>
 
   <properties>
     <ieee754b16.version>1.0.4</ieee754b16.version>
@@ -23,6 +23,7 @@
     <jtensors.version>8.0.0</jtensors.version>
     <junreachable.version>1.0.3</junreachable.version>
     <junsigned.version>1.0.1</junsigned.version>
+    <r2.version>0.3.0-SNAPSHOT</r2.version>
     <mutable.numbers.version>[1.0.0, 2.0.0)</mutable.numbers.version>
     <smfj.version>0.14.0</smfj.version>
     <zeptoblog.version>0.4.0-SNAPSHOT</zeptoblog.version>
@@ -261,7 +262,7 @@
     <dependency>
       <groupId>com.io7m.r2</groupId>
       <artifactId>com.io7m.r2.facade</artifactId>
-      <version>0.2.1</version>
+      <version>0.3.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>
