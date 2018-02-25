@@ -7,7 +7,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2018-02-23</version>
+  <version>2018-02-25</version>
+  <packaging>pom</packaging>
 
   <properties>
     <jaffirm.version>2.0.0</jaffirm.version>
@@ -41,6 +42,7 @@
     <sombrero.version>0.3.1</sombrero.version>
     <timehack.version>2.0.0</timehack.version>
     <jstructural.version>6.0.0-SNAPSHOT</jstructural.version>
+    <zeptoblog.version>0.4.0-SNAPSHOT</zeptoblog.version>
   </properties>
 
   <build>
@@ -469,6 +471,11 @@
       <groupId>com.io7m.jstructural</groupId>
       <artifactId>com.io7m.jstructural.probe.spi</artifactId>
       <version>${jstructural.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.zeptoblog</groupId>
+      <artifactId>com.io7m.zeptoblog.cmdline</artifactId>
+      <version>${zeptoblog.version}</version>
     </dependency>
   </dependencies>
 
