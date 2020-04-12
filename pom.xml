@@ -7,13 +7,21 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.io7m.universe</groupId>
   <artifactId>universe</artifactId>
-  <version>2018-02-25</version>
+  <version>2020-04-12</version>
   <packaging>pom</packaging>
 
   <properties>
-    <jaffirm.version>2.0.0</jaffirm.version>
-    <changelog.version>4.0.0-beta0009</changelog.version>
+    <blackthorne.version>0.0.5</blackthorne.version>
+    <changelog.version>4.0.0-beta0014</changelog.version>
+    <coffeepick.gui.version>0.2.0</coffeepick.gui.version>
+    <coffeepick.version>0.2.0</coffeepick.version>
+    <flail.version>0.0.1</flail.version>
+    <gtyrell.version>2.0.0</gtyrell.version>
+    <halite.version>0.0.1</halite.version>
     <ieee754b16.version>2.0.0</ieee754b16.version>
+    <jade.version>1.0.1</jade.version>
+    <jaffirm.version>3.0.4</jaffirm.version>
+    <jbssio.version>0.0.2</jbssio.version>
     <jcamera.version>0.5.0</jcamera.version>
     <jcanephora.version>0.61.0</jcanephora.version>
     <jcoords.version>1.0.0</jcoords.version>
@@ -21,7 +29,7 @@
     <jfsm.version>1.0.0</jfsm.version>
     <jintegers.version>2.0.0</jintegers.version>
     <jlexing.version>2.0.0</jlexing.version>
-    <jmutnum.version>1.0.0</jmutnum.version>
+    <jmutnum.version>2.0.0</jmutnum.version>
     <jnfp.version>1.0.0</jnfp.version>
     <jobj.version>0.3.0</jobj.version>
     <jorchard.version>1.0.0</jorchard.version>
@@ -30,19 +38,31 @@
     <jproperties.version>2.0.0</jproperties.version>
     <jptbox.version>1.0.0</jptbox.version>
     <jpuddle.version>0.4.0</jpuddle.version>
-    <jranges.version>3.0.0</jranges.version>
+    <jranges.version>4.0.0</jranges.version>
     <jregions.version>2.0.0</jregions.version>
     <jserial.version>0.4.0</jserial.version>
-    <jspatial.version>3.0.0-beta0002</jspatial.version>
+    <jspatial.version>3.0.0-beta0003</jspatial.version>
+    <jstructural.version>6.0.0-SNAPSHOT</jstructural.version>
     <jsx.version>2.0.0</jsx.version>
     <jtensors.version>9.0.0</jtensors.version>
-    <junreachable.version>2.0.0</junreachable.version>
+    <junreachable.version>3.0.0</junreachable.version>
     <junsigned.version>2.0.0</junsigned.version>
     <smfj.version>0.14.0</smfj.version>
     <sombrero.version>0.3.1</sombrero.version>
     <timehack.version>2.0.0</timehack.version>
-    <jstructural.version>6.0.0-SNAPSHOT</jstructural.version>
-    <zeptoblog.version>0.4.0-SNAPSHOT</zeptoblog.version>
+    <zeptoblog.version>0.4.0</zeptoblog.version>
+    <jcathinone.version>0.0.3</jcathinone.version>
+    <jequality.version>2.0.0</jequality.version>
+    <jmulticlose.version>0.0.1</jmulticlose.version>
+    <jnoisetype.version>0.0.2</jnoisetype.version>
+    <jrai.version>0.0.6</jrai.version>
+    <jsamplebuffer.version>0.0.1</jsamplebuffer.version>
+    <jsay.version>0.0.1</jsay.version>
+    <jspiel.version>0.0.3</jspiel.version>
+    <jwheatsheaf.version>2.0.1</jwheatsheaf.version>
+    <modulechaser.version>0.0.2</modulechaser.version>
+    <pallene.version>0.0.2</pallene.version>
+    <wastebasket.version>0.0.1</wastebasket.version>
   </properties>
 
   <build>
@@ -67,14 +87,114 @@
       <version>${jaffirm.version}</version>
     </dependency>
     <dependency>
+      <groupId>com.io7m.blackthorne</groupId>
+      <artifactId>com.io7m.blackthorne.api</artifactId>
+      <version>${blackthorne.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.coffeepick</groupId>
+      <artifactId>com.io7m.coffeepick.client.api</artifactId>
+      <version>${coffeepick.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.coffeepick</groupId>
+      <artifactId>com.io7m.coffeepick.client.vanilla</artifactId>
+      <version>${coffeepick.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.coffeepick</groupId>
+      <artifactId>com.io7m.coffeepick.adoptopenjdk_v3</artifactId>
+      <version>${coffeepick.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.coffeepick</groupId>
+      <artifactId>com.io7m.coffeepick.jdk_java_net</artifactId>
+      <version>${coffeepick.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.coffeepick</groupId>
+      <artifactId>com.io7m.coffeepick.shipilev_net</artifactId>
+      <version>${coffeepick.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.coffeepick</groupId>
+      <artifactId>com.io7m.coffeepick.repository.spi</artifactId>
+      <version>${coffeepick.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.coffeepick</groupId>
+      <artifactId>com.io7m.coffeepick.runtime</artifactId>
+      <version>${coffeepick.version}</version>
+    </dependency>
+    <dependency>
       <groupId>com.io7m.changelog</groupId>
       <artifactId>com.io7m.changelog.cmdline</artifactId>
       <version>${changelog.version}</version>
     </dependency>
     <dependency>
+      <groupId>com.io7m.coffeepick.gui</groupId>
+      <artifactId>com.io7m.coffeepick.gui.fx</artifactId>
+      <version>${coffeepick.gui.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.coffeepick.gui</groupId>
+      <artifactId>com.io7m.coffeepick.gui.main</artifactId>
+      <version>${coffeepick.gui.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.flail</groupId>
+      <artifactId>com.io7m.flail</artifactId>
+      <version>${flail.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.gtyrell</groupId>
+      <artifactId>com.io7m.gtyrell.core</artifactId>
+      <version>${gtyrell.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.gtyrell</groupId>
+      <artifactId>com.io7m.gtyrell.filter</artifactId>
+      <version>${gtyrell.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.gtyrell</groupId>
+      <artifactId>com.io7m.gtyrell.github</artifactId>
+      <version>${gtyrell.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.gtyrell</groupId>
+      <artifactId>com.io7m.gtyrell.server</artifactId>
+      <version>${gtyrell.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.halite</groupId>
+      <artifactId>com.io7m.halite.maven.plugin</artifactId>
+      <version>${halite.version}</version>
+    </dependency>
+    <dependency>
       <groupId>com.io7m.ieee754b16</groupId>
       <artifactId>com.io7m.ieee754b16.core</artifactId>
       <version>${ieee754b16.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jade</groupId>
+      <artifactId>com.io7m.jade.api</artifactId>
+      <version>${jade.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jade</groupId>
+      <artifactId>com.io7m.jade.vanilla</artifactId>
+      <version>${jade.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jbssio</groupId>
+      <artifactId>com.io7m.jbssio.api</artifactId>
+      <version>${jbssio.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jbssio</groupId>
+      <artifactId>com.io7m.jbssio.vanilla</artifactId>
+      <version>${jbssio.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jcamera</groupId>
@@ -132,9 +252,19 @@
       <version>${jcanephora.version}</version>
     </dependency>
     <dependency>
+      <groupId>com.io7m.jcathinone</groupId>
+      <artifactId>com.io7m.jcathinone</artifactId>
+      <version>${jcathinone.version}</version>
+    </dependency>
+    <dependency>
       <groupId>com.io7m.jcoords</groupId>
       <artifactId>com.io7m.jcoords.core</artifactId>
       <version>${jcoords.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jequality</groupId>
+      <artifactId>com.io7m.jequality.core</artifactId>
+      <version>${jequality.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jeucreader</groupId>
@@ -157,6 +287,11 @@
       <version>${jlexing.version}</version>
     </dependency>
     <dependency>
+      <groupId>com.io7m.jmulticlose</groupId>
+      <artifactId>com.io7m.jmulticlose.core</artifactId>
+      <version>${jmulticlose.version}</version>
+    </dependency>
+    <dependency>
       <groupId>com.io7m.mutable.numbers</groupId>
       <artifactId>com.io7m.mutable.numbers.core</artifactId>
       <version>${jmutnum.version}</version>
@@ -165,6 +300,31 @@
       <groupId>com.io7m.jnfp</groupId>
       <artifactId>com.io7m.jnfp.core</artifactId>
       <version>${jnfp.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jnoisetype</groupId>
+      <artifactId>com.io7m.jnoisetype.api</artifactId>
+      <version>${jnoisetype.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jnoisetype</groupId>
+      <artifactId>com.io7m.jnoisetype.parser.api</artifactId>
+      <version>${jnoisetype.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jnoisetype</groupId>
+      <artifactId>com.io7m.jnoisetype.vanilla</artifactId>
+      <version>${jnoisetype.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jnoisetype</groupId>
+      <artifactId>com.io7m.jnoisetype.writer.api</artifactId>
+      <version>${jnoisetype.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jnoisetype</groupId>
+      <artifactId>com.io7m.jnoisetype.cmdline</artifactId>
+      <version>${jnoisetype.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jobj</groupId>
@@ -232,6 +392,11 @@
       <version>${jpuddle.version}</version>
     </dependency>
     <dependency>
+      <groupId>com.io7m.jrai</groupId>
+      <artifactId>com.io7m.jrai</artifactId>
+      <version>${jrai.version}</version>
+    </dependency>
+    <dependency>
       <groupId>com.io7m.jranges</groupId>
       <artifactId>com.io7m.jranges.core</artifactId>
       <version>${jranges.version}</version>
@@ -240,6 +405,26 @@
       <groupId>com.io7m.jregions</groupId>
       <artifactId>com.io7m.jregions.core</artifactId>
       <version>${jregions.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsamplebuffer</groupId>
+      <artifactId>com.io7m.jsamplebuffer.api</artifactId>
+      <version>${jsamplebuffer.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsamplebuffer</groupId>
+      <artifactId>com.io7m.jsamplebuffer.vanilla</artifactId>
+      <version>${jsamplebuffer.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsamplebuffer</groupId>
+      <artifactId>com.io7m.jsamplebuffer.xmedia</artifactId>
+      <version>${jsamplebuffer.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jsay</groupId>
+      <artifactId>com.io7m.jsay</artifactId>
+      <version>${jsay.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jserial</groupId>
@@ -255,6 +440,16 @@
       <groupId>com.io7m.jspatial</groupId>
       <artifactId>com.io7m.jspatial.implementation</artifactId>
       <version>${jspatial.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jspiel</groupId>
+      <artifactId>com.io7m.jspiel.api</artifactId>
+      <version>${jspiel.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jspiel</groupId>
+      <artifactId>com.io7m.jspiel.vanilla</artifactId>
+      <version>${jspiel.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.jsx</groupId>
@@ -331,7 +526,26 @@
       <artifactId>com.io7m.junsigned.ranges</artifactId>
       <version>${junsigned.version}</version>
     </dependency>
-
+    <dependency>
+      <groupId>com.io7m.jwheatsheaf</groupId>
+      <artifactId>com.io7m.jwheatsheaf.api</artifactId>
+      <version>${jwheatsheaf.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.jwheatsheaf</groupId>
+      <artifactId>com.io7m.jwheatsheaf.ui</artifactId>
+      <version>${jwheatsheaf.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.modulechaser</groupId>
+      <artifactId>com.io7m.modulechaser</artifactId>
+      <version>${modulechaser.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.io7m.pallene</groupId>
+      <artifactId>com.io7m.pallene</artifactId>
+      <version>${pallene.version}</version>
+    </dependency>
     <dependency>
       <groupId>com.io7m.smfj</groupId>
       <artifactId>com.io7m.smfj.blender</artifactId>
@@ -433,44 +647,19 @@
       <version>${timehack.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.io7m.jstructural</groupId>
-      <artifactId>com.io7m.jstructural.annotations</artifactId>
-      <version>${jstructural.version}</version>
+      <groupId>com.io7m.wastebasket</groupId>
+      <artifactId>com.io7m.wastebasket.api</artifactId>
+      <version>${wastebasket.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.io7m.jstructural</groupId>
-      <artifactId>com.io7m.jstructural.ast</artifactId>
-      <version>${jstructural.version}</version>
+      <groupId>com.io7m.wastebasket</groupId>
+      <artifactId>com.io7m.wastebasket.vanilla</artifactId>
+      <version>${wastebasket.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.io7m.jstructural</groupId>
-      <artifactId>com.io7m.jstructural.formats</artifactId>
-      <version>${jstructural.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.io7m.jstructural</groupId>
-      <artifactId>com.io7m.jstructural.parser.api</artifactId>
-      <version>${jstructural.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.io7m.jstructural</groupId>
-      <artifactId>com.io7m.jstructural.parser.spi</artifactId>
-      <version>${jstructural.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.io7m.jstructural</groupId>
-      <artifactId>com.io7m.jstructural.parser.xml</artifactId>
-      <version>${jstructural.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.io7m.jstructural</groupId>
-      <artifactId>com.io7m.jstructural.probe.api</artifactId>
-      <version>${jstructural.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.io7m.jstructural</groupId>
-      <artifactId>com.io7m.jstructural.probe.spi</artifactId>
-      <version>${jstructural.version}</version>
+      <groupId>com.io7m.wastebasket</groupId>
+      <artifactId>com.io7m.wastebasket.cmdline</artifactId>
+      <version>${wastebasket.version}</version>
     </dependency>
     <dependency>
       <groupId>com.io7m.zeptoblog</groupId>
